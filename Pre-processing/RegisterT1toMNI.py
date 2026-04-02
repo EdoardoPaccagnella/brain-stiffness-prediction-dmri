@@ -15,7 +15,7 @@ T2Folder = os.path.join(SubjectsFolder, "T1T2QSMandSWI")
 DMRIFolder = os.path.join(SubjectsFolder, "MUDI_synb0")
 OutputFolder = os.path.join(SubjectsFolder, "InputChannels")
 TransformFolder = os.path.join(SubjectsFolder, "RegistrationUtils")
-MNI_template = os.path.join(SubjectsFolder, "provacancella/MNI152_T1_1mm_brain.nii.gz")
+MNI_template = os.path.join(SubjectsFolder, "/MNI152_T1_1mm_brain.nii.gz")
 
 # === List of input parameter maps === Select which do you want to register
 all_parameters = [
