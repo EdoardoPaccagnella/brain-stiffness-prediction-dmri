@@ -494,9 +494,9 @@ class UNet3D(nn.Module):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
-SubjectsFolder = '/home/maia-user/cifs/Datasets/PD_Private/chrol/ParkMRE/InputChannels'  # Path to MUDI parameters
-OutFolder = '/home/maia-user/cifs/Datasets/PD_Private/chrol/ParkMRE/ablation_nopreweight_masked3.0' # Choose accordingly to your path
-MRE_Folder = '/home/maia-user/cifs/Datasets/PD_Private/chrol/ParkMRE/MRE_T1toMNI_202402'            # Choose accordingly to your path
+SubjectsFolder = '/ParkMRE/InputChannels'  # Path to MUDI parameters
+OutFolder = '/ParkMRE/ablation_nopreweight_masked3.0' # Choose accordingly to your path
+MRE_Folder = '/ParkMRE/MRE_T1toMNI_202402'            # Choose accordingly to your path
 
 ListofSubjectNames = [
     os.path.join(SubjectsFolder, d)
