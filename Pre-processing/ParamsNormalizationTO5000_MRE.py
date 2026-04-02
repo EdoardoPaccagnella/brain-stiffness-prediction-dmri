@@ -3,7 +3,7 @@ import nibabel as nib
 import numpy as np
 
 # === Define the main input folder ===
-SubjectsFolder = "/home/maia-user/cifs/Datasets/PD_Private/chrol/ParkMRE" #choose the right path
+SubjectsFolder = "/ParkMRE" #choose the right path
 InputFolder = os.path.join(SubjectsFolder, "MRE_T1toMNI_202402")
 
 # === Define the parameter map filename to normalize ===
