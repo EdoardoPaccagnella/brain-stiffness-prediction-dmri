@@ -3,7 +3,7 @@ import nibabel as nib
 import numpy as np
 
 # === Define main input/output folder ===
-a = "/home/maia-user/cifs/Datasets/PD_Private/chrol/ParkMRE" # choose the right path
+a = "/ParkMRE" # choose the right path
 SubjectsFolder = os.path.join(a, "InputChannels")
 
 # === List of parameter maps to normalize ===
