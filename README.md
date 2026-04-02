@@ -5,6 +5,7 @@ This project was developed as part of my Master’s thesis in the field of medic
 
 ---
 
+## Overview
 Parkinson’s disease is a progressive neurodegenerative disorder, and early diagnosis remains a major challenge due to the limitations of current diagnostic tools, which are often invasive, expensive, and not widely accessible.
 
 This project explores a novel approach to estimate **brain stiffness**, a key biomarker in neurodegeneration, using **diffusion MRI (dMRI)** instead of Magnetic Resonance Elastography (MRE).
