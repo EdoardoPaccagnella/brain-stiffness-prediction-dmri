@@ -9,11 +9,11 @@ def AntsApplyTransmat(movingimage, fixedimg, outname, translist):
     ants.image_write(warped_img, outname)     # Save the registered image
 
 # === Main folder paths === Add your path
-SubjectsFolder = "/home/maia-user/cifs/Datasets/PD_Private/chrol/ParkMRE"
+SubjectsFolder = "//ParkMRE" #choose the right path
 MREFolder = os.path.join(SubjectsFolder, "MRE_ToT1_202402")
 OutputFolder = os.path.join(SubjectsFolder, "MRE_T1toMNI_202402")
 TransformFolder = os.path.join(SubjectsFolder, "RegistrationUtils")
-MNI_template = os.path.join(SubjectsFolder, "provacancella/MNI152_T1_1mm_brain.nii.gz")
+MNI_template = os.path.join(SubjectsFolder, "/MNI152_T1_1mm_brain.nii.gz")
 
 # === List of input parameter maps ===
 all_parameters = ['MRE_stiffness_ToT1_202402.nii.gz']
