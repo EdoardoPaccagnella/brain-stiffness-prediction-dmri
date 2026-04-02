@@ -9,7 +9,7 @@ def AntsApplyTransmat(movingimage, fixedimg, outname, translist):
     ants.image_write(warped_img, outname)     # Save the registered image
 
 # === Main folder paths === Add your path
-SubjectsFolder = "/home/maia-user/cifs/Datasets/PD_Private/chrol/ParkMRE"
+SubjectsFolder = "/ParkMRE" #choose the right path
 T1Folder = os.path.join(SubjectsFolder, "ReconAlls")
 T2Folder = os.path.join(SubjectsFolder, "T1T2QSMandSWI")
 DMRIFolder = os.path.join(SubjectsFolder, "MUDI_synb0")
