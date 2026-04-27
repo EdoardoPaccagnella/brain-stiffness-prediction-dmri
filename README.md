@@ -36,6 +36,7 @@ The goal is to develop an accessible alternative for stiffness estimation using 
 - Cross-validation on best-performing configurations  
 - Region-based analysis for localized evaluation  
 
+![Screenshot](Pipeline.png)
 ---
 
 ## Results
